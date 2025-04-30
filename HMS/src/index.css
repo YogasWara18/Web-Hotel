@@ -1,0 +1,103 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --prime-color: #644222;
+    --prime-light: #BE9874;
+    --section-bg: #F7F5F1;
+    --text-color: #101010;
+    --black-color: #000;
+    --white-color: #fff;
+
+    --transition-slow: .6s;
+    --transition-regular: .3s;
+
+    --OpenSans-font: "Open Sans", sans-serif;
+    --Jost-font: "Jost", sans-serif;
+    --Libre-font: "Libre Baskerville", serif;
+}
+
+/* Navbar */
+
+nav {
+    width: 100%;
+    padding: 10px 9% !important;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(2px);
+    z-index: 999 !important;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: var(--Libre-font);
+}
+
+.logo span {
+    color: var(--prime-light);
+}
+
+.menu .nav-item a {
+    color: var(--black-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white-color);
+    position: relative;
+    transition: var(--transition-regular);
+    z-index: 1;
+    text-decoration: none !important;
+    padding: 10px;
+}
+
+
+.menu .nav-item a::after {
+    content: '';
+    position: absolute;
+    top: -100%;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+    transition: var(--transition-regular);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.menu .nav-item:hover a::after {
+    top: 0;
+    opacity: 1;
+}
+
+.menu .nav-item:hover a {
+    color: var(--black-color);
+}
+
+.btn {
+    background-color: var(--prime-color);
+    color: var(--white-color) !important;
+    width: 250px;
+    padding: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: var(--black-color);
+}
+
+nav button {
+    border-radius: 0 !important;
+    background-color: var(--prime-light) !important;
+}

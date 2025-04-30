@@ -1,0 +1,46 @@
+{
+    "Rooms":[
+        {
+            "id":"R1",
+            "name":"Classic Balcony Room",
+            "src":"/images/room-1.png",
+            "Price":"$500",
+            "descri[ption":"Aenean vehicula is simply dummy text of the printing and typesetting industry. Dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        {
+            "id":"R2",
+            "name":"Superior Double Room",
+            "src":"/images/room-2.png",
+            "Price":"$300",
+            "descri[ption":"Aenean vehicula is simply dummy text of the printing and typesetting industry. Dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        {
+            "id":"R3",
+            "name":"Delux Double Room",
+            "src":"/images/room-3.png",
+            "Price":"$450",
+            "descri[ption":"Aenean vehicula is simply dummy text of the printing and typesetting industry. Dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        {
+            "id":"R4",
+            "name":"Superior Double Room",
+            "src":"/images/room-4.png",
+            "Price":"$450",
+            "descri[ption":"Aenean vehicula is simply dummy text of the printing and typesetting industry. Dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        {
+            "id":"R5",
+            "name":"Super Balcony Double Room",
+            "src":"/images/room-5.png",
+            "Price":"$550",
+            "descri[ption":"Aenean vehicula is simply dummy text of the printing and typesetting industry. Dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        {
+            "id":"R6",
+            "name":"Delux Double Room",
+            "src":"/images/room-6.png",
+            "Price":"$350",
+            "descri[ption":"Aenean vehicula is simply dummy text of the printing and typesetting industry. Dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        }
+    ]
+}
