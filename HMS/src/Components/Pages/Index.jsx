@@ -1,5 +1,7 @@
 import React from 'react'
 
+import checkIcon from './../../assets/check-icon.png'
+
 const Index = () => {
     return (
        // Hero
@@ -20,6 +22,13 @@ const Index = () => {
                             <div className="col-md-6">
                                 <div className="booking-box">
                                     <p><img src={checkIcon} alt=""/> Check In Date</p>
+                                    <input type="date" />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="booking-box">
+                                    <p><img src={checkIcon} alt="" /> Check Out Date</p>
+                                    <input type="date" />
                                 </div>
                             </div>
                         </div>
