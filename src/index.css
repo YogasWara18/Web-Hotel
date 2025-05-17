@@ -166,3 +166,49 @@ header {
     border: 6px solid var(--white-color);
 }
 
+.section-title span {
+    font-size: 1.2rem;
+    font-family: var(--Jost-font);
+    font-weight: 600 !important;
+    color: var(--prime-color);
+}
+
+.section-title h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: var(--Libre-font);
+}
+
+.text-wrapper p {
+    color: #777;
+    font-weight: 300;
+}
+
+.feature-peregraphs p {
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-weight: 600;
+    padding-left: 28px;
+    font-size: 15px;
+    position: relative;
+    color: var(--prime-color);
+}
+
+.feature-peregraphs p i {
+    color: var(--prime-color);
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.discover-btn {
+    background-color: var(--prime-color);
+    color: var(--white-color);
+    font-family: var(--Jost-font);
+    font-size: 15px;
+    font-weight: 00;
+    padding: 12px 30px;
+    border: none;
+    transition: var(--transition-regular);
+    border: 1px solid var(--prime-color);
+}

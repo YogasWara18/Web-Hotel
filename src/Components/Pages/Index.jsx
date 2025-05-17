@@ -7,6 +7,13 @@ import babyIcon from "./../../assets/baby-icon.png"
 import roomIcon from "./../../assets/room-icon.png"
 import hotelImg from "./../../assets/about-1.png"
 import bedroomImg from "./../../assets/about-2.png"
+import explore1 from "./../../assets/explore-icon-1.png"
+import explore2 from "./../../assets/explore-icon-2.png"
+import explore3 from "./../../assets/explore-icon-3.png"
+import explore4 from "./../../assets/explore-icon-4.png"
+import explore5 from "./../../assets/explore-icon-5.png"
+import explore6 from "./../../assets/explore-icon-6.png"
+import element2 from "./../../assets/bg-2.png"
 
 const Index = () => {
   return (
@@ -110,6 +117,76 @@ const Index = () => {
                 <p><i className="ri-check-line"></i> Customer Rewards Program and excellent technology</p>
               </div>
               <button className="btn discover-btn mt-3">DISCOVER MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Explore */}
+      <div className="explore my-5 mb-0 position-relative">
+        <div className="container">
+          <div className="row">
+            <div className="section-title text-center explore-title d-flex flex-column align-items-center">
+              <span>Explore</span>
+              <h2>The Hotel</h2>
+              <p>Proin consectetur non dolor vitae pulvinar. sit amet consectetur adipisicing elit. Minima aliquid hic veniam quod. Ea, aut. Eveniet consequuntur error impedit? Ipsa, magnam repellendus placeat voluptate fugiat ad rerum possimus distinctio perspiciatis ratione, odit, tempore dicta cupiditate.</p>
+            </div>
+            <div className="explore-wrapper mt-5">
+              <div className="row">
+                {/* card 1 */}
+                <div className="col-lg-4 col-md-6 border-0 mb-4 mb-lg-0">
+                  <div className="explore-card p-4 shadow">
+                    <img src={explore1} className='img-fluid' alt="" />
+                    <h2 className="my-2">Qulity Room</h2>
+                    <p>Nullam molestie lacus sit amet velit fermentum feugiat. Quaerat perspiciatis eius voluptate at rem.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                {/* card 2 */}
+                <div className="col-lg-4 col-md-6 border-0 mb-4 mb-lg-0">
+                  <div className="explore-card p-4 shadow">
+                    <img src={explore2} className='img-fluid' alt="" />
+                    <h2 className="my-2">Privet Beach</h2>
+                    <p>Nullam molestie lacus sit amet velit fermentum feugiat. Inventore deserunt, perspiciatis eius eos quis nam dolorem cupiditate.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                {/* card 3 */}
+                <div className="col-lg-4 col-md-6 border-0 mb-4 mb-lg-0">
+                  <div className="explore-card p-4 shadow">
+                    <img src={explore3} className='img-fluid' alt="" />
+                    <h2 className="my-2">Best Accommodation</h2>
+                    <p>Nullam molestie lacus sit amet velit fermentum feugiat. Quaerat perspiciatis eius voluptate at rem. Inventore deserunt.</p>
+                    <a href="#">Read More <i className="ri-arrow-right-long-line"></i></a>
+                  </div>
+                </div>
+                {/* card 4 */}
+                <div className="col-lg-4 col-md-6 border-0 mb-4 mb-lg-0">
+                  <div className="explore-card p-4 shadow">
+                    <img src={explore4} className='img-fluid' alt="" />
+                    <h2 className="my-2">Privet Beach</h2>
+                    <p>Nullam molestie lacus sit amet velit fermentum feugiat. Quaerat perspiciatis eius voluptate at rem. Perspiciatis eius eos quis nam dolorem cupiditate.</p>
+                    <a href="#">Read More <i className="ri-arrow-right-long-line"></i></a>
+                  </div>
+                </div>
+                 {/* card 5 */}
+                <div className="col-lg-4 col-md-6 border-0 mb-4 mb-lg-0">
+                  <div className="explore-card p-4 shadow">
+                    <img src={explore5} className='img-fluid' alt="" />
+                    <h2 className="my-2">Restaurant & Bars</h2>
+                    <p>Nullam molestie lacus sit amet velit fermentum feugiat. Quaerat perspiciatis eius voluptate at rem. Inventore deserunt, perspiciatis eius eos quis nam dolorem cupiditate.</p>
+                    <a href="#">Read More <i className="ri-arrow-right-long-line"></i></a>
+                  </div>
+                </div>
+                {/* card 6 */}
+                <div className="col-lg-4 col-md-6 border-0 mb-4 mb-lg-0">
+                  <div className="explore-card p-4 shadow">
+                    <img src={explore6} className='img-fluid' alt="" />
+                    <h2 className="my-2">Special offers</h2>
+                    <p>Nullam molestie lacus sit amet velit fermentum feugiat. Quaerat perspiciatis eius voluptate at rem. Inventore deserunt, soluta labore optio consequuntur officia.</p>
+                    <a href="#">Read More <i className="ri-arrow-right-long-line"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
