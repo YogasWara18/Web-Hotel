@@ -212,3 +212,101 @@ header {
     transition: var(--transition-regular);
     border: 1px solid var(--prime-color);
 }
+
+/* Explore Section */
+
+.explore {
+    margin-top: 6% !important;
+    background-color: var(--section-bg);
+}
+
+.explore-title p {
+    width: 70%;
+    text-align: center;
+}
+
+.explore-card {
+    background-color: var(--white-color);
+    transition: var(--transition-regular);
+    position: relative;
+}
+
+.explore-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.explore-card h2 {
+    font-size: 1.7rem !important;
+    font-family: var(--Jost-font);
+    transition: var(--transition-regular);
+}
+
+.explore-card h2:hover {
+    color: var(--prime-color) !important;
+    cursor: pointer;
+}
+
+.explore-card a {
+    text-decoration: none;
+    color: var(--black-color);
+    transition: var(--transition-regular);
+}
+
+.explore-card a:hover {
+    letter-spacing: 1px;
+    color: var(--prime-color) !important;
+}
+
+.explore-card:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 150px;
+    height: 150px;
+    background-image: url(assets/explore-icon-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.explore-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(131, 131, 131, 0.3);
+}
+
+.explore-wrapper .row > .col-lg-4:nth-child(2) .explore-card:after { background-image: url(assets/explore-icon-2.png); }
+
+.explore-wrapper .row > .col-lg-4:nth-child(3) .explore-card:after { background-image: url(assets/explore-icon-3.png); }
+
+.explore-wrapper .row > .col-lg-4:nth-child(4) .explore-card:after { background-image: url(assets/explore-icon-4.png); }
+
+.explore-wrapper .row > .col-lg-4:nth-child(5) .explore-card:after { background-image: url(assets/explore-icon-5.png); }
+
+.explore-wrapper .row > .col-lg-4:nth-child(6) .explore-card:after { background-image: url(assets/explore-icon-6.png); }
+
+.element {
+    position: relative;
+    overflow: hidden;
+    top: 20%;
+    animation: top-bottom 5s infinite linear;
+}
+
+.element1 {
+    left: 0 !important;
+    width: 170px;
+}
+
+@keyframes top-bottom {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
